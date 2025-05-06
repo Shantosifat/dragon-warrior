@@ -11,10 +11,15 @@
   --color-secondary: #D72050;
   --color-base-100: #F3F3F3;
   --color-base-200: #E7E7E7;
+  --color-base-300: #FFFFFF;
   --color-accent: #706F6F;
 
 }
 
 *{
   font-family: "Poppins", sans-serif;
+}
+
+a.active{
+  @apply bg-base-200
 }
